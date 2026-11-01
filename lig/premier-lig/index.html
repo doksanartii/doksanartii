@@ -257,7 +257,9 @@ td .neg{color:var(--loss)}
       <div class="col">
         <div id="haberler">
           <div class="sechead"><h2>Son haberler</h2><span>Premier Lig</span></div>
-          <a class="item" href="/doksanartii/haber/brighton-city/">
+          <a class="item" href="/doksanartii/haber/man-utd-carrick/">
+    <div class="mini stat"><span class="s">17.</span><span class="t">Man United sırası</span></div>
+    <div><div class="kicker label"><span class="tag alt">Gündem</span><span>Premier Lig · 2 Kasım 2026</span></div><h3>Manchester United’da Carrick kararı ertelendi</h3><p>The Athletic'e göre kulüp, 9 maçtır kazanamayan takımda Michael Carrick ile en az milli araya kadar devam edecek.</p></div></a><a class="item" href="/doksanartii/haber/brighton-city/">
     <div class="mini"><span class="s">0-<em>1</em></span><span class="t">Man City · Brighton</span></div>
     <div><div class="kicker label"><span class="tag ">Maç sonucu</span><span>Premier Lig · 31 Ekim 2026</span></div><h3>Brighton’dan Manchester’da sürpriz: City 0‑1 Brighton</h3><p>Manchester City sahasında Brighton'a 1-0 yenildi. Zirvede City ile Arsenal 21'er puanla eşit; bu akşam Liverpool–Arsenal var.</p></div></a>
         </div>
@@ -317,7 +319,7 @@ td .neg{color:var(--loss)}
       <td>6</td></tr><tr class=""><td>20</td><td><svg class="bdg" viewBox="0 0 32 37" aria-hidden="true"><path d="M1 3Q8 1 16 1Q24 1 31 3V19Q31 31 16 36Q1 31 1 19Z" fill="#2E5DA8" stroke="rgba(255,255,255,.8)" stroke-width="1.5"></path><path d="M20 1.6H26V30.6L20 34.2Z" fill="#FFFFFF"></path><text x="16" y="21" text-anchor="middle" font-size="9" font-weight="900" font-family="Archivo,Arial,sans-serif" fill="#fff" stroke="rgba(0,0,0,.6)" stroke-width="2" paint-order="stroke">SUN</text></svg>Sunderland</td><td>9</td><td>1</td><td>2</td><td>6</td>
       <td>5</td></tr></tbody>
   </table></div>
-  <p class="note">2 Kasım 2026, 01:25 itibarıyla. Bugün oynanan ve devam eden maçlar tabloya henüz yansımamış olabilir; O sütunu oynanan maç sayısıdır.</p></div>
+  <p class="note">2 Kasım 2026, 02:15 itibarıyla. Bugün oynanan ve devam eden maçlar tabloya henüz yansımamış olabilir; O sütunu oynanan maç sayısıdır.</p></div>
         </div>
         <div id="fikstur">
           <div class="sechead"><h2>Sıradaki maçlar</h2><span>TSİ</span></div>
@@ -359,7 +361,7 @@ td .neg{color:var(--loss)}
 
 <script>
 /* ================= content ================= */
-const UPDATED = "2 Kasım 2026, 01:25";
+const UPDATED = "2 Kasım 2026, 02:15";
 
 const LEAGUES = [
   { key:"super-lig",  name:"Süper Lig",   short:"TR" },
@@ -384,6 +386,13 @@ const STRIP = [
 ];
 
 const NEWS = [
+  { id:"man-utd-carrick", lg:"premier-lig", tag:"Gündem", date:"2 Kasım 2026", round:"",
+    title:"Manchester United’da Carrick kararı ertelendi",
+    summary:"The Athletic'e göre kulüp, 9 maçtır kazanamayan takımda Michael Carrick ile en az milli araya kadar devam edecek.",
+    stat:{ value:"17.", label:"Man United sırası" },
+    body:["The Athletic'in haberine göre Manchester United yönetimi, teknik direktör Michael Carrick hakkında milli aradan önce bir karar vermeyecek.",
+      "Chelsea deplasmanında 2-0 kaybeden United 9 maçtır galibiyet alamıyor ve 7 puanla Premier Lig'de 17. sırada bulunuyor. Takımı milli aradan önce Şampiyonlar Ligi'nde Roma ve ligde Aston Villa maçları bekliyor.",
+      "Kaynak: The Athletic"] },
   { id:"juventus-napoli", lg:"serie-a", tag:"Maç sonucu", date:"1 Kasım 2026", round:"",
     title:"Juventus, Napoli’yi 2-0 geçerek toparlandı",
     summary:"Hafta içinde Genoa'ya kaybeden Juventus, Napoli'yi 2-0 yenerek 17 puana yükseldi. Napoli 14 puanda kaldı.",
