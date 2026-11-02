@@ -328,7 +328,7 @@ td .neg{color:var(--loss)}
       <td>5</td></tr><tr class=""><td>20</td><td><svg class="bdg" viewBox="0 0 32 37" aria-hidden="true"><path d="M1 3Q8 1 16 1Q24 1 31 3V19Q31 31 16 36Q1 31 1 19Z" fill="#C8102E" stroke="rgba(255,255,255,.8)" stroke-width="1.5"></path><path d="M20 1.6H26V30.6L20 34.2Z" fill="#FFFFFF"></path><text x="16" y="21" text-anchor="middle" font-size="9" font-weight="900" font-family="Archivo,Arial,sans-serif" fill="#fff" stroke="rgba(0,0,0,.6)" stroke-width="2" paint-order="stroke">VEN</text></svg>Venezia</td><td>10</td><td>1</td><td>0</td><td>9</td>
       <td>3</td></tr></tbody>
   </table></div>
-  <p class="note">2 Kasım 2026, 11:55 itibarıyla. Bugün oynanan ve devam eden maçlar tabloya henüz yansımamış olabilir; O sütunu oynanan maç sayısıdır.</p></div>
+  <p class="note">2 Kasım 2026, 14:45 itibarıyla. Bugün oynanan ve devam eden maçlar tabloya henüz yansımamış olabilir; O sütunu oynanan maç sayısıdır.</p></div>
         </div>
         <div id="fikstur">
           <div class="sechead"><h2>Sıradaki maçlar</h2><span>TSİ</span></div>
@@ -370,7 +370,7 @@ td .neg{color:var(--loss)}
 
 <script>
 /* ================= content ================= */
-const UPDATED = "2 Kasım 2026, 11:55";
+const UPDATED = "2 Kasım 2026, 14:45";
 
 const LEAGUES = [
   { key:"super-lig",  name:"Süper Lig",   short:"TR" },
@@ -395,6 +395,21 @@ const STRIP = [
 ];
 
 const NEWS = [
+  { id:"reis-basin-toplantisi", lg:"super-lig", tag:"Basın toplantısı", date:"1 Kasım 2026", round:"10. hafta",
+    title:"Thomas Reis 7’de 7 yaptı: “Bunu hep birlikte yapıyoruz”",
+    summary:"Trabzonspor Teknik Direktörü Thomas Reis, göreve geldiğinden bu yana tüm maçları kazanan takımında başarıyı kadronun tamamına bağladı.",
+    stat:{ value:"7/7", label:"Reis'in galibiyet serisi" },
+    body:["Trabzonspor, Gaziantep FK'yı 2-0 yenerek Thomas Reis yönetiminde çıktığı 7 resmi maçın tamamını kazandı.",
+      "Reis maç sonrası başarıyı tüm kadroya bağladı ve kendini takımın bir parçası olarak gördüğünü söyledi. Duran top golünün iyi bir zamanda geldiğini, bu konuda antrenmanlarda çalıştıklarını belirtti.",
+      "Alman teknik adam, bundan sonra rakiplerin Trabzonspor'a karşı daha geride duracağını, bu yüzden yeni çözümler üretmeleri gerektiğini düşünüyor. Sakat oyuncuların bir an önce dönmesini umduğunu da söyledi.",
+      "Kaynak: Fanatik"] },
+  { id:"italiano-basin-toplantisi", lg:"super-lig", tag:"Basın toplantısı", date:"1 Kasım 2026", round:"10. hafta",
+    title:"Italiano: “Bunu çözmemiz lazım!”",
+    summary:"Beşiktaş Teknik Direktörü Vincenzo Italiano, Kasımpaşa beraberliğinin ardından takımının deplasmanda iç sahadaki konsantrasyonu gösteremediğini söyledi.",
+    stat:{ value:"2-2", label:"Kasımpaşa · Beşiktaş" },
+    body:["Kasımpaşa deplasmanında 2-0 öne geçtiği maçta 2-2 berabere kalan Beşiktaş'ın teknik direktörü Vincenzo Italiano, takımının deplasmanda kazanacak kapasitesi olduğunu ancak iç sahadaki kalite ve konsantrasyonu dış sahada gösteremediğini söyledi.",
+      "Italiano, ikinci yarıda yaklaşık 20 dakikalık bir kopukluk yaşandığını, savunmada daha dikkatli olmaları gerektiğini belirtti. Trossard'ı yorgunluk nedeniyle oyundan aldığını ve değişikliklerin doğru olduğunu savundu.",
+      "Kaynak: Yeni Şafak, TGRT Haber"] },
   { id:"genclerbirligi-alanyaspor-mac-gunu", lg:"super-lig", tag:"Maç günü", date:"2 Kasım 2026", round:"10. hafta",
     title:"Haftanın kapanışı Ankara’da: Gençlerbirliği – Alanyaspor",
     summary:"Süper Lig'de 10. hafta, bu akşam 20:00'de Eryaman Stadyumu'nda oynanacak Gençlerbirliği–Alanyaspor maçıyla tamamlanacak.",
