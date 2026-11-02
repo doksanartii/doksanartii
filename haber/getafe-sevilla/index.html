@@ -287,7 +287,7 @@ td .neg{color:var(--loss)}
 
 <script>
 /* ================= content ================= */
-const UPDATED = "2 Kasım 2026, 09:45";
+const UPDATED = "2 Kasım 2026, 11:55";
 
 const LEAGUES = [
   { key:"super-lig",  name:"Süper Lig",   short:"TR" },
@@ -312,6 +312,14 @@ const STRIP = [
 ];
 
 const NEWS = [
+  { id:"genclerbirligi-alanyaspor-mac-gunu", lg:"super-lig", tag:"Maç günü", date:"2 Kasım 2026", round:"10. hafta",
+    title:"Haftanın kapanışı Ankara’da: Gençlerbirliği – Alanyaspor",
+    summary:"Süper Lig'de 10. hafta, bu akşam 20:00'de Eryaman Stadyumu'nda oynanacak Gençlerbirliği–Alanyaspor maçıyla tamamlanacak.",
+    stat:{ value:"20:00", label:"Gençlerbirliği – Alanyaspor" },
+    body:["Süper Lig'in 10. haftasının kapanış maçında Gençlerbirliği, bu akşam saat 20:00'de Eryaman Stadyumu'nda Alanyaspor'u konuk edecek. Maçı Fatih Tokail yönetecek.",
+      "Gençlerbirliği'nde Diabate ve Rodrigues forma giyemeyecek; Goutas ile Etebo'nun durumu maç saatine doğru netleşecek. Alanyaspor'da Paolo Fernandes kadroda yer almıyor.",
+      "Gençlerbirliği 8 puanla 16., Alanyaspor 12 puanla 12. sırada bulunuyor.",
+      "Kaynak: Ajansspor, Akşam"] },
   { id:"basaksehir-samsunspor", lg:"super-lig", tag:"Maç sonucu", date:"1 Kasım 2026", round:"10. hafta",
     title:"Başakşehir’den Samsunspor’a beşlik",
     summary:"Başakşehir, Samsunspor'u 5-2 yenerek puanını 14'e çıkardı. Samsunspor 4 puanla sondan ikinci sırada kaldı.",
@@ -523,7 +531,7 @@ const RESULTS = {
 
 /* fixtures: [time, day, match, league, today?] — times are Türkiye time */
 const FIXTURES = {
-  "super-lig":[["20:45","Sal 3 Kas","Galatasaray – Stuttgart","UEFA Şampiyonlar Ligi"],["20:45","Çar 4 Kas","Fenerbahçe – Liverpool","UEFA Şampiyonlar Ligi"],["19:00","Cmt 7 Kas","Galatasaray – Amedspor","Süper Lig · zirve maçı"]],
+  "super-lig":[["20:00","Bugün","Gençlerbirliği – Alanyaspor","Süper Lig · 10. hafta",1],["20:45","Sal 3 Kas","Galatasaray – Stuttgart","UEFA Şampiyonlar Ligi"],["20:45","Çar 4 Kas","Fenerbahçe – Liverpool","UEFA Şampiyonlar Ligi"],["19:00","Cmt 7 Kas","Galatasaray – Amedspor","Süper Lig · zirve maçı"]],
   "premier-lig":[["23:00","2 Kas","Newcastle – Everton","Premier Lig"],["20:30","7 Kas","Nottm Forest – Man City","Premier Lig"],["17:00","8 Kas","Brighton – Brentford","Premier Lig"]],
   "la-liga":[["23:00","7 Kas","Valencia – Real Madrid","La Liga"]],
   "serie-a":[["22:45","2 Kas","Atalanta – Parma","Serie A"],["14:30","8 Kas","Napoli – Lazio","Serie A"]],
