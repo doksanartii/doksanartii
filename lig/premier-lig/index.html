@@ -319,7 +319,7 @@ td .neg{color:var(--loss)}
       <td>6</td></tr><tr class=""><td>20</td><td><svg class="bdg" viewBox="0 0 32 37" aria-hidden="true"><path d="M1 3Q8 1 16 1Q24 1 31 3V19Q31 31 16 36Q1 31 1 19Z" fill="#2E5DA8" stroke="rgba(255,255,255,.8)" stroke-width="1.5"></path><path d="M20 1.6H26V30.6L20 34.2Z" fill="#FFFFFF"></path><text x="16" y="21" text-anchor="middle" font-size="9" font-weight="900" font-family="Archivo,Arial,sans-serif" fill="#fff" stroke="rgba(0,0,0,.6)" stroke-width="2" paint-order="stroke">SUN</text></svg>Sunderland</td><td>9</td><td>1</td><td>2</td><td>6</td>
       <td>5</td></tr></tbody>
   </table></div>
-  <p class="note">2 Kasım 2026, 08:10 itibarıyla. Bugün oynanan ve devam eden maçlar tabloya henüz yansımamış olabilir; O sütunu oynanan maç sayısıdır.</p></div>
+  <p class="note">2 Kasım 2026, 09:25 itibarıyla. Bugün oynanan ve devam eden maçlar tabloya henüz yansımamış olabilir; O sütunu oynanan maç sayısıdır.</p></div>
         </div>
         <div id="fikstur">
           <div class="sechead"><h2>Sıradaki maçlar</h2><span>TSİ</span></div>
@@ -361,7 +361,7 @@ td .neg{color:var(--loss)}
 
 <script>
 /* ================= content ================= */
-const UPDATED = "2 Kasım 2026, 08:10";
+const UPDATED = "2 Kasım 2026, 09:25";
 
 const LEAGUES = [
   { key:"super-lig",  name:"Süper Lig",   short:"TR" },
@@ -386,6 +386,14 @@ const STRIP = [
 ];
 
 const NEWS = [
+  { id:"galatasaray-stuttgart-oncesi", lg:"super-lig", tag:"Maç öncesi", date:"2 Kasım 2026", round:"",
+    title:"Stuttgart, Galatasaray deplasmanına 5 eksikle geliyor",
+    summary:"Yarın 20:45'te RAMS Park'ta oynanacak Şampiyonlar Ligi maçı öncesinde Stuttgart'ta beş oyuncu sakat.",
+    stat:{ value:"20:45", label:"Galatasaray – Stuttgart · 3 Kasım" },
+    body:["Galatasaray, Şampiyonlar Ligi'nde 3 Kasım Salı günü saat 20:45'te RAMS Park'ta Almanya'nın Stuttgart takımını konuk edecek.",
+      "Stuttgart'ta Angelo Stiller, Dan-Axel Zagadou, Josha Vagnoman, Justin Diehl ve Leo Sauer sakat. Kulüp, Stiller'in kasık, Sauer'in kalça sakatlığı yaşadığını açıklamıştı.",
+      "Galatasaray Süper Lig'de 25 puanla lider; Stuttgart ise Bundesliga'da 9 puanla 11. sırada bulunuyor.",
+      "Kaynak: Mynet, Milliyet"] },
   { id:"bayern-sakatlik", lg:"bundesliga", tag:"Sakatlık", date:"1 Kasım 2026", round:"",
     title:"Bayern Münih’te sakatlık kabusu: Saibari ameliyat edildi",
     summary:"Dortmund maçında sakatlanan Saibari'nin ayak bileğinde bağ yırtığı, Gnabry'de arka adale sakatlığı tespit edildi.",
@@ -581,14 +589,14 @@ const RESULTS = {
 
 /* fixtures: [time, day, match, league, today?] — times are Türkiye time */
 const FIXTURES = {
-  "super-lig":[["20:45","Çar 4 Kas","Fenerbahçe – Liverpool","UEFA Şampiyonlar Ligi"],["11.","hafta","Galatasaray – Amedspor","Süper Lig · zirve maçı"]],
+  "super-lig":[["20:45","Sal 3 Kas","Galatasaray – Stuttgart","UEFA Şampiyonlar Ligi"],["20:45","Çar 4 Kas","Fenerbahçe – Liverpool","UEFA Şampiyonlar Ligi"],["11.","hafta","Galatasaray – Amedspor","Süper Lig · zirve maçı"]],
   "premier-lig":[["23:00","2 Kas","Newcastle – Everton","Premier Lig"],["20:30","7 Kas","Nottm Forest – Man City","Premier Lig"],["17:00","8 Kas","Brighton – Brentford","Premier Lig"]],
   "la-liga":[["23:00","7 Kas","Valencia – Real Madrid","La Liga"]],
   "serie-a":[["22:45","2 Kas","Atalanta – Parma","Serie A"],["14:30","8 Kas","Napoli – Lazio","Serie A"]],
   "bundesliga":[["17:30","7 Kas","Mainz – Bayern Münih","Bundesliga"],["17:30","7 Kas","Dortmund – Elversberg","Bundesliga"],["20:30","7 Kas","Stuttgart – Werder Bremen","Bundesliga"]],
   "ligue-1":[["22:45","7 Kas","PSG – Troyes","Ligue 1"]]
 };
-const FIX_ALL = [FIXTURES["la-liga"][0],FIXTURES["premier-lig"][0],FIXTURES["serie-a"][0],FIXTURES["super-lig"][0],FIXTURES["super-lig"][1]];
+const FIX_ALL = [FIXTURES["la-liga"][0],FIXTURES["premier-lig"][0],FIXTURES["serie-a"][0],FIXTURES["super-lig"][0],FIXTURES["super-lig"][1],FIXTURES["super-lig"][2]];
 
 /* ================= helpers ================= */
 /* Takım rozetleri: kulüp renklerinde kalkan + kısaltma (gerçek arma değildir) */
