@@ -328,7 +328,7 @@ td .neg{color:var(--loss)}
       <td>5</td></tr><tr class=""><td>20</td><td><svg class="bdg" viewBox="0 0 32 37" aria-hidden="true"><path d="M1 3Q8 1 16 1Q24 1 31 3V19Q31 31 16 36Q1 31 1 19Z" fill="#C8102E" stroke="rgba(255,255,255,.8)" stroke-width="1.5"></path><path d="M20 1.6H26V30.6L20 34.2Z" fill="#FFFFFF"></path><text x="16" y="21" text-anchor="middle" font-size="9" font-weight="900" font-family="Archivo,Arial,sans-serif" fill="#fff" stroke="rgba(0,0,0,.6)" stroke-width="2" paint-order="stroke">VEN</text></svg>Venezia</td><td>10</td><td>1</td><td>0</td><td>9</td>
       <td>3</td></tr></tbody>
   </table></div>
-  <p class="note">2 Kasım 2026, 05:25 itibarıyla. Bugün oynanan ve devam eden maçlar tabloya henüz yansımamış olabilir; O sütunu oynanan maç sayısıdır.</p></div>
+  <p class="note">2 Kasım 2026, 06:35 itibarıyla. Bugün oynanan ve devam eden maçlar tabloya henüz yansımamış olabilir; O sütunu oynanan maç sayısıdır.</p></div>
         </div>
         <div id="fikstur">
           <div class="sechead"><h2>Sıradaki maçlar</h2><span>TSİ</span></div>
@@ -370,7 +370,7 @@ td .neg{color:var(--loss)}
 
 <script>
 /* ================= content ================= */
-const UPDATED = "2 Kasım 2026, 05:25";
+const UPDATED = "2 Kasım 2026, 06:35";
 
 const LEAGUES = [
   { key:"super-lig",  name:"Süper Lig",   short:"TR" },
@@ -395,6 +395,13 @@ const STRIP = [
 ];
 
 const NEWS = [
+  { id:"sakatlik-gundemi-2-kasim", lg:"super-lig", tag:"Sakatlık", date:"2 Kasım 2026", round:"",
+    title:"Süper Lig’de sakatlık gündemi: Orkun, Poku ve Oppong",
+    summary:"Beşiktaş'ta Orkun ve Poku'nun Celtic maçında dönmesi bekleniyor; Fenerbahçe'de Oppong'un Liverpool maçındaki durumu belirsiz.",
+    stat:{ value:"3", label:"takipteki oyuncu" },
+    body:["Beşiktaş Teknik Direktörü Vincenzo Italiano, Kasımpaşa maçı öncesinde kaptan Orkun'un oynamak istediğini ancak riske edilmediğini söyledi: \"Yüzde yüz olduğunda aramızda olacak.\" Italiano, grip geçiren Poku'nun da Celtic maçında sahada olabileceğini belirtti.",
+      "Fenerbahçe'de Göztepe maçında 84 dakika oynayan Kojo Oppong, Teknik Direktör Dirk Kuyt'un ifadesine göre ağrı hissederek oyundan çıkmak istedi. Oyuncunun 4 Kasım'daki Liverpool maçında oynayıp oynamayacağı henüz belli değil.",
+      "Kaynak: NTV Spor, Haber Aktüel"] },
   { id:"voleybol-gs-fb", lg:"super-lig", tag:"Voleybol", date:"1 Kasım 2026", round:"",
     title:"Voleybol derbisinde Fenerbahçe Medicana 3-0 kazandı",
     summary:"Sultanlar Ligi'nin 6. haftasında Fenerbahçe Medicana, Galatasaray Daikin'i deplasmanda 3-0 yenerek 5'te 5 yaptı.",
@@ -567,7 +574,7 @@ const RESULTS = {
 
 /* fixtures: [time, day, match, league, today?] — times are Türkiye time */
 const FIXTURES = {
-  "super-lig":[["Çar","4 Kas","Fenerbahçe – Liverpool","UEFA Şampiyonlar Ligi"],["11.","hafta","Galatasaray – Amedspor","Süper Lig · zirve maçı"]],
+  "super-lig":[["20:45","Çar 4 Kas","Fenerbahçe – Liverpool","UEFA Şampiyonlar Ligi"],["11.","hafta","Galatasaray – Amedspor","Süper Lig · zirve maçı"]],
   "premier-lig":[["23:00","2 Kas","Newcastle – Everton","Premier Lig"],["20:30","7 Kas","Nottm Forest – Man City","Premier Lig"],["17:00","8 Kas","Brighton – Brentford","Premier Lig"]],
   "la-liga":[["23:00","7 Kas","Valencia – Real Madrid","La Liga"]],
   "serie-a":[["22:45","2 Kas","Atalanta – Parma","Serie A"],["14:30","8 Kas","Napoli – Lazio","Serie A"]],
